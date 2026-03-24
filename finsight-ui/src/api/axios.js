@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL: "https://finsight-ai-api-gycpfaa4dpf3huan.southafricanorth-01.azurewebsites.net/api"
+    baseURL: import.meta.env.VITE_API_URL || "https://finsight-ai-api-gycpfaa4dpf3huan.southafricanorth-01.azurewebsites.net/api"
 });
 
 // attach token automatically
