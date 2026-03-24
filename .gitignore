@@ -1,0 +1,82 @@
+# ======================
+# NODE / REACT (Frontend)
+# ======================
+node_modules/
+dist/
+build/
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ======================
+# .NET / VISUAL STUDIO (Backend)
+# ======================
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# 🔥 Visual Studio cache (FIXES YOUR ERROR)
+.vs/
+
+# Rider / JetBrains
+.idea/
+
+# VS Code
+.vscode/
+
+# ======================
+# UPLOADS (🔥 VERY IMPORTANT - FIX GITHUB BLOCK)
+# ======================
+FinSight.API/uploads/
+uploads/
+
+# ======================
+# AZURE / SECRETS (🔥 CRITICAL)
+# ======================
+appsettings.json
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+secrets.json
+
+# ======================
+# LOGS
+# ======================
+logs/
+*.log
+
+# ======================
+# OS FILES
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# TEST / COVERAGE
+# ======================
+coverage/
+*.coverage
+*.coveragexml
+
+# ======================
+# BUILD OUTPUTS
+# ======================
+out/
+publish/
+
+# ======================
+# TEMP FILES
+# ======================
+*.tmp
+*.temp
