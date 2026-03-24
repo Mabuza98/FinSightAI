@@ -17,6 +17,7 @@ function App() {
             <Routes>
                 {/* PUBLIC */}
                 <Route path="/" element={<Login />} />
+                <Route path="/register" element={<Register />} />
 
                 {/* PROTECTED + LAYOUT */}
                 <Route
@@ -32,10 +33,10 @@ function App() {
                     <Route path="chat" element={<Chat />} />
                     <Route path="documents" element={<Documents />} />
                     <Route path="insights" element={<Insights />} />
-                    <Route path="insights" element={<InsightDetail />} />
+                    <Route path="insightS/:id" element={<InsightDetail />} />
                     <Route path="settings" element={<Settings />} />
                     <Route path="/" element={<Login />} />
-                    <Route path="/register" element={<Register />} />
+                    
                     
                 </Route>
             </Routes>
