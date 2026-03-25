@@ -2,6 +2,14 @@
 
 > Transforming financial documents into actionable intelligence using AI.
 
+
+🌍 Live Demo Frontend: https://finsight-ai-ruby.vercel.app
+
+Backend API (Swagger): https://finsight-ai-api-gycpfaa4dpf3huan.southafricanorth-01.azurewebsites.net/swagger
+
+
+This project showcases the ability to design, build, and deploy a real-world AI-powered SaaS application.
+
 ---
 
 ## 🌍 Overview
@@ -72,14 +80,23 @@ It’s an **AI intelligence layer** on top of your documents.
 
 ## 🏗️ Architecture
 Frontend (React + Vite)
+
 ↓
+
 API Layer (ASP.NET Core)
+
 ↓
+
 AI Services
+
 ├── Azure OpenAI
+
 ├── Azure AI Search (Vector DB)
+
 └── Document Processing Pipeline
+
 ↓
+
 Storage (Azure Blob)
 
 
@@ -94,6 +111,7 @@ Storage (Azure Blob)
 
 ### ⚙️ Backend
 - ASP.NET Core Web API
+- C#
 - Entity Framework Core
 - JWT Authentication
 
@@ -120,9 +138,11 @@ Register → Login → JWT Token → Protected Routes
 ## 📡 API Endpoints
 
 POST /api/Auth/register
+
 POST /api/Auth/login
 
 GET /api/Document/my-documents
+
 POST /api/Document/upload-single
 
 POST /api/Ai/query
@@ -157,7 +177,7 @@ dotnet run
 ⚙️ API: (your Azure link)
 
 📸 Screenshots (Add These 🔥)
-Add images here for maximum impact
+
 /screenshots/backendswagger.png
 /screenshots/register+login.png
 /screenshots/home.png
