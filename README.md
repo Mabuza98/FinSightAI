@@ -155,7 +155,7 @@ GET /api/Insights
 ## ⚙️ Local Setup
 
 ### 1️⃣ Clone Repo
-```bash
+
 git clone https://github.com/Mabuza98/FinSightAI.git
 cd FinSightAI
 
