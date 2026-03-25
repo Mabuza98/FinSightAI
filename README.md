@@ -178,14 +178,22 @@ dotnet run
 
 📸 Screenshots (Add These 🔥)
 
-![Backendswagger](./screenshots/backendswagger.png
-![Register+login](./screenshots/register+login.png
-![Home](./screenshots/home.png
+![Backendswagger](./screenshots/backendswagger.png)
+
+![Register+login](./screenshots/register+login.png)
+
+![Home](./screenshots/home.png)
+
 ![Dashboard](./screenshots/dashboard.png)
+
 ![Chat](./screenshots/chat.png)
+
 ![Documents](./screenshots/documents.png)
+
 ![Insights](./screenshots/insights.png)
-![Settings](./screenshots/settings.png
+
+![Settings](./screenshots/settings.png)
+
 
 
 
