@@ -178,14 +178,16 @@ dotnet run
 
 📸 Screenshots (Add These 🔥)
 
-/screenshots/backendswagger.png
-/screenshots/register+login.png
-/screenshots/home.png
-/screenshots/dashboard.png
-/screenshots/chat.png
-/screenshots/documents.png
-/screenshots/insights.png
-/screenshots/settings.png
+![Backendswagger](./screenshots/backendswagger.png
+![Register+login](./screenshots/register+login.png
+![Home](./screenshots/home.png
+![Dashboard](./screenshots/dashboard.png)
+![Chat](./screenshots/chat.png)
+![Documents](./screenshots/documents.png)
+![Insights](./screenshots/insights.png)
+![Settings](./screenshots/settings.png
+
+
 
 🧭 Product Vision
 FinSightAI is evolving into a next-gen financial intelligence platform:
